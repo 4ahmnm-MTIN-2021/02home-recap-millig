@@ -20,7 +20,7 @@ WebGL, reference solution 960 x 600
 
 ### Visuals:
 
-<img src="/.Visuals/02home-racap-millig.gif" width="300">
+<img src="/.Visuals/02home-recap-millig.gif" width="150">
 
 ### Project state:
 
