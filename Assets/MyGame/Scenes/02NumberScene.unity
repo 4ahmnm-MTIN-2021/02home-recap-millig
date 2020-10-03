@@ -391,9 +391,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 921786999}
+      - m_Target: {fileID: 921787001}
         m_TargetAssemblyTypeName: CalcScript, Assembly-CSharp
-        m_MethodName: SetResult
+        m_MethodName: GetResult
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -895,6 +895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 921787000}
   - component: {fileID: 921786999}
+  - component: {fileID: 921787001}
   m_Layer: 0
   m_Name: CalcScript
   m_TagString: Untagged
@@ -914,10 +915,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57c804c5aa3204031ab523551d68b299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  varA: {fileID: 660292198}
-  varB: {fileID: 1485239811}
-  TextErgebnis: {fileID: 1078888712}
-  ButtonAdd: {fileID: 493452557}
 --- !u!4 &921787000
 Transform:
   m_ObjectHideFlags: 0
@@ -932,6 +929,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &921787001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921786998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc97de5e5259a479e86468bd8aa761bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  varA: {fileID: 660292198}
+  varB: {fileID: 1485239811}
+  TextResult: {fileID: 1078888712}
+  ButtonAdd: {fileID: 493452557}
 --- !u!1 &994002885
 GameObject:
   m_ObjectHideFlags: 0
@@ -1023,7 +1036,7 @@ GameObject:
   - component: {fileID: 1078888713}
   - component: {fileID: 1078888712}
   m_Layer: 5
-  m_Name: TextErgebnis
+  m_Name: TextResult
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
